@@ -1,0 +1,235 @@
+/* MAIN START */
+
+body {
+	background: url(../img/papier.jpg);
+	background-size: 100%, auto;
+	overflow-x: hidden;
+}
+
+
+main {
+	background-color: rgba(250, 234, 216, 0.8);
+}
+
+h4{
+	font-weight: bold;
+}
+
+.text-footer {
+	word-break: normal;
+	margin: auto;
+	width: 90%;
+	border-radius: 15px;
+	margin-top: 10px;
+}
+
+
+
+#content {
+	padding-bottom: 50px;
+}
+
+
+
+/* MAIN END */
+
+/* HEADER START */
+header {
+	background-image: url(../img/head.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 30vh;
+}
+
+header>div {
+	height: 100%;
+}
+
+h1 {
+	color: white;
+	font-size: 9rem;
+	-webkit-text-stroke: 2px #4F3423;
+	font-family: "Dancing Script";
+}
+
+nav li {
+	font-size: 1.2rem;
+	font-family: "Calistoga";
+}
+
+.bg-brown {
+	background-color: rgba(79, 52, 35, 1);
+}
+
+.form-control {
+	width: 200px;
+}
+
+/* HEADER END */
+
+/* FOOTER START */
+.container1{
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	background: rgba(226, 205, 180, 0.8);
+}
+
+.blockEnLigne {
+	display: inline-block;
+}
+
+/* Afficher masquer block cookie */
+#cookie {
+	background: rgba(250, 236, 219, 0.8);
+	display: none;
+	padding: 1%;
+}
+
+
+#afficher:target #cookie {
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 100%;
+}
+.afficher{
+	color : black;
+}
+.masquer {
+	display: none;
+	color : black;
+}
+.afficher:hover{
+	color:  rgba(243, 160, 6, 0.87);
+}
+.masquer:hover{
+	display: none;
+	color:  rgba(243, 160, 6, 0.87);
+}
+
+#afficher:target .masquer {
+	display: inline;
+}
+
+#afficher:target .afficher {
+	display: none;
+}
+.btn-cookie{
+	background-color: rgba(79, 52, 35);
+	color: white;
+}
+
+/* Afficher masquer block politique confidentialite*/
+#polConfidence {
+	display: none;
+	background-color: rgba(250, 234, 216, 0.8);
+	padding: 1%;
+}
+
+#afficher2:target #polConfidence {
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 100%;
+}
+.afficher2{
+	color : black;
+}
+.masquer2 {
+	display: none;
+	color : black;
+}
+.afficher2:hover{
+	color: rgba(243, 160, 6, 0.87);
+}
+.masquer2:hover{
+	display: none;
+	color:  rgba(243, 160, 6, 0.87);
+}
+
+#afficher2:target .masquer2 {
+	display: inline;
+}
+
+#afficher2:target .afficher2 {
+	display: none;
+}
+
+/* Politique infos personnelles*/
+#polInfoPerso {
+	display: none;
+	background-color: rgba(250, 234, 216, 0.8);
+	padding: 1%;
+}
+
+#afficher3:target #polInfoPerso {
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 100%;
+}
+.afficher3{
+	color : black;
+}
+.masquer3 {
+	display: none;
+	color : black;
+}
+.afficher3:hover{
+	color:  rgba(243, 160, 6, 0.87);
+}
+.masquer3:hover{
+	display: none;
+	color: rgba(243, 160, 6, 0.87);
+}
+
+#afficher3:target .masquer3 {
+	display: inline;
+}
+
+#afficher3:target .afficher3 {
+	display: none;
+}
+
+/* FOOTER END */
+
+/* RESPONSIVE START */
+
+@media screen and (max-width: 992px) {
+	#pipe-bar {
+		display: none;
+	}
+
+	h1 {
+		font-size: 7rem;
+	}
+}
+
+@media screen and (max-width: 766px) {
+	h1 {
+		font-size: 5rem;
+		-webkit-text-stroke: 1px #4F3423;
+	}
+}
+
+@media screen and (max-width: 375px) {
+
+	h1 {
+		font-size: 4rem;
+		-webkit-text-stroke: 1px #4F3423;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#display-nav-xl{
+		order: 1;
+}
+
+/* RESPONSIVE END */
