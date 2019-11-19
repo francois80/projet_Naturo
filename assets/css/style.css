@@ -1,14 +1,15 @@
-/* MAIN START */
 
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Thasadith&display=swap');
+/* MAIN START */
 body {
-	background: url(../img/papier.jpg);
+	/*background: url(../img/fond2.jpg);*/
 	background-size: 100%, auto;
 	overflow-x: hidden;
 }
 
 
 main {
-	background-color: rgba(250, 234, 216, 0.8);
+	/* background-color: rgba(250, 234, 216, 0.8); */
 }
 
 h4{
@@ -67,6 +68,53 @@ nav li {
 
 /* HEADER END */
 
+/*BODY*/
+.bloc_Large
+{
+	/* width: 100%; */
+	margin: auto;
+	background-color: rgba(255, 250, 240, 0.8);
+	height:auto;
+	-webkit-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	/* border: 1px solid #dfdede; */
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1%;
+	padding-top: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	border-radius: 15px;
+	overflow: hidden;
+	text-align: justify;
+}
+
+.margeTop
+{
+	margin-top: 10px;
+
+}
+
+/* .img1{
+	background-image: url(../img/bourgeon.jpeg);
+}
+
+.img2{
+	background-image: url(../img/fleurdansleau.jpeg);
+} */
+
+.img_small
+{
+	width: 50%;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	border-radius: 15px;
+	padding: 10px;
+}
+/*BODY*/
 /* FOOTER START */
 .container1{
 	display: flex;
